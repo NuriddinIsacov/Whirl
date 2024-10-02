@@ -156,3 +156,48 @@
 .partners-items img{
     width: 124px;
 }
+
+/* Flash section styles */
+.flash-section{
+    margin-top: 120px;
+}
+
+.flash-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    width: 355px;
+    height: 250px;
+    padding: 32px;
+}
+.flash-card img{
+    
+    width: 55px;
+}
+.flash-card h5{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+.flash-card p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.bg-yellow{
+    background-color: #FAEA73;
+}
+.bg-aqua{
+    background-color: #CCEFF6;
+}
+.bg-pink{
+    background-color: #F7CEDC;
+}
+.flash-cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
