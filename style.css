@@ -128,7 +128,9 @@
     gap: 5px;
 }
 
+
 /* Partners section styles */
+
 .partners-section{
     display: flex;
     flex-direction: column;
@@ -157,7 +159,10 @@
     width: 124px;
 }
 
+
+
 /* Flash section styles */
+
 .flash-section{
     margin-top: 160px;
 }
@@ -202,7 +207,10 @@
     gap: 32px;
 }
 
+
+
 /* Relax section styles */
+
 .relax-section{
     margin-top: 120px;
     padding: 80px 0;
@@ -276,4 +284,45 @@
     letter-spacing: 0.2px;
     margin-right: 20px;
     display: block;
+}
+
+
+
+/* About section styles */
+
+
+.about-section{
+    padding: 120px 155px;
+
+}
+.about-section-box{
+    display: flex;
+    justify-content: space-between;
+}
+.about-section-box .section-title{
+    width: 300px;
+}
+.about-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.about-card{
+    max-width: 222px;
+
+}
+.about-card-title{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #1f1f1f;
+}
+.about-card-description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1f1f1f;
 }
