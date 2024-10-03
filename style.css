@@ -134,7 +134,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 120px;
     gap: 10px;
 }
 .partners-title{
@@ -159,7 +159,7 @@
 
 /* Flash section styles */
 .flash-section{
-    margin-top: 120px;
+    margin-top: 160px;
 }
 
 .flash-card{
@@ -199,5 +199,81 @@
 .flash-cards{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 32px;
+}
+
+/* Relax section styles */
+.relax-section{
+    margin-top: 120px;
+    padding: 80px 0;
+    background-color: #F7F9FA;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    margin-left: 18px;
+    margin-bottom: 34px;
+}
+.relax-items{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.relax-left{
+    width: 485px;
+    height: 345px;
+}
+.relax-right{
+    width: 480px;
+}
+.relax-left-item{
+    border-top: solid 1px #C2CDD8;
+    border-bottom: solid 1px #C2CDD8;
+    margin-bottom: 2px;
+    padding: 16px 0;
+    overflow: hidden;
+    max-height: 64px;
+    transition: all ease-in-out 0.5s;
+    
+}
+.relax-item-caption{
+    display: flex;
+    align-items: center;
+}
+.relax-item-caption img{
+    width: 32px;
+}
+.relax-item-caption div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.relax-item-caption div img{
+    width: 18px;
+}
+.relax-item-caption div img:hover{
+    cursor: pointer;
+}
+.relax-item-caption_title{
+    margin-left: 28px;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+.relax-item-active {
+    max-height: 158px;
+}
+.relax-item-description{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-right: 20px;
+    display: block;
 }
