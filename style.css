@@ -393,3 +393,47 @@
     font-weight: 400;
     line-height: 27px;
 }
+
+
+
+/* Task section styles */
+
+.task-section{
+    margin: 120px 0px;
+}
+.task-section .section-title{
+    margin-bottom: 18px;
+}
+.task-section-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 643px;
+}
+.task-section-cards{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.task-section-card{
+    max-width: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+.task-section-card img{
+    width: 55px;
+    height: 55px;
+}
+.task-card-title{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.task-card-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
