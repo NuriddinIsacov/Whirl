@@ -511,3 +511,50 @@
 .post-card:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
+
+
+
+/* Get started section styles */
+
+
+.get-started-section-box{
+    background-color: #E6F7FF;
+    padding: 64px;
+    margin: 80px 0px;
+}
+.get-started-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 480px;
+    margin-bottom: 33px;
+}
+.get-started-section-box .book-demo{
+    padding: 8px 32px;
+    margin-bottom: 12px;
+}
+.get-started-short-infos{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    gap: 25px;
+}
+.get-started-short-infos div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.get-started-short-infos p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.2;
+    color: #626A72;
+}
+
+
+@import url(https://fonts.googleapis.com/css2);
+
+body {
+  font-family: 'Inter', sans-serif;
+}
