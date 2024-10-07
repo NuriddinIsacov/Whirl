@@ -553,6 +553,99 @@
 }
 
 
+
+
+/* Footer section styles */
+
+
+.foter-cols{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #ccc;
+}
+.infos{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1f1f1f;
+}
+.infos a{
+    text-decoration: none;
+    color: #0070A0;
+}
+.footer-col h5{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 16px;
+}
+.footer-col li{
+    list-style: none;
+}
+.footer-col a{
+    text-decoration: none;
+    color: #626A72;
+}
+.footer-col ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.col-title{
+    margin-bottom: 12px;;
+}
+.col-description{
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 16px;
+}
+.col-inp{
+    display: inline;
+    border-bottom: 1px solid #ccc;
+    width: 216px;
+    height: 44px;
+    padding-bottom: 4px;
+}
+.col-inp input{
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 4px;
+    border: none;
+    outline: none;
+    color: #626A72;
+}
+.col-inp input:focus{
+    border: none;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
+.footer-bottom p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1f1f1f;
+}
+.footer-bottom p>a{
+    text-decoration: none;
+    color: #0070A0;
+}
+.footer-bottom-icons a{
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
 @import url(https://fonts.googleapis.com/css2);
 
 body {
